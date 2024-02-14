@@ -1,0 +1,5 @@
+groupadd tech 
+usermode -a -g tech ram
+gpasswd -d ram tech
+gpassswd -d ram tech
+groupdel tech 

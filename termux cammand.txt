@@ -1,0 +1,60 @@
+apt update
+apt upgrade
+apt list
+apt show [ package name ]
+apt install [package name]
+pkg install packagename
+pkg uninstall packname
+sudo apt install pack
+sudo apt remove pack
+cp
+mv
+ls
+rm
+ln
+history
+col -> show calander
+date - show current date
+help 
+exit 
+uptime
+df -> show amount of disk space
+find - file search
+su super user
+echo 
+passwd 
+du 
+whoami
+ifconfig
+ping -> send icmp echo _request to network host
+
+netsat - print network connections routing tables 
+sleep
+
+touch filename
+cat filename
+cp 
+rm filename
+rm -rf  dir name
+cd
+pwd
+chmod 777 filename
+zip filename compress a file
+unzip 
+wget url here dounload file for web
+git clone url
+env
+termux-setup-storage
+
+
+file and cammands:
+
+read file content in lin
+
+cat file_name
+nl file_name
+less file_name
+more file_name
+head file_name
+tial file_name
+

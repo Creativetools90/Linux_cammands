@@ -1,0 +1,162 @@
+sudo useradd usernmae
+make a new user
+
+sudo id username
+show this username all info 
+
+sudo userdel username
+delete user
+
+user modes
+
+++++++++++++
+
+-b -badnames
+	-base fir  do not check for bad names base dir for home dir
+-c 
+-d --home-dir home directory of the new account
+-D defaults 
+-e expiration date of new account
+-f paddword inactivity period of the new account
+-g gig group
+-m create the user home dir
+-M do not create the user home dir
+-N do not create a group with the same name as user
+-o not unique id
+-p passwd
+-r create a system account
+-R create a root 
+-u user id of the new account
+-U create group as same name of user
+
+sudo cat /etc/passwd -> show all users list
+sudo cat /etc/passwd | grep <username -> show only spacific user data
+sudo cat /etc/group -> show all users group datas
+sudo cat /etc/group | grep  groupname -> show only spacific group data
+Adding a User in Linux and Creating Home Directory
+sudo useradd -m name
+ls -lah /home/<username>
+
+change already have user name  and group name and user id and group id
+chnage have user name -l
+sudo usermod -l new_username old_username
+
+
+change have group name -n
+sudo groupmod -n new_group_name old_group_name
+
+change user id -u
+sudo usermod -u new_id 1004 which_user user_name
+
+change group id -g
+
+sudo groupmod -g new od 10004 g_name
+
+
+
+
+file permissons
+
+table
+
+read   4
+write  2
+execute 1
+
+7 -> 4+2+1 = file-read,write and execute permission have
+4-> 4+0+0 = file-read permission have
+1 -> 1+0+0 = file-execute permission have
+0 -> no access
+
+
+-rw-r--r-- 12 linuxize users 12.0K Apr  8 20:51 filename.txt
+|[-][-][-]-   [------] [---]
+| |  |  | |      |       |
+| |  |  | |      |       +-----------> 7. Group
+| |  |  | |      +-------------------> 6. Owner
+| |  |  | +--------------------------> 5. Alternate Access Method
+| |  |  +----------------------------> 4. Others Permissions
+| |  +-------------------------------> 3. Group Permissions
+| +----------------------------------> 2. Owner Permissions
++------------------------------------> 1. File Type
+
+
+
+
+
+which htop -> system info
+
+
+command command_name
+command nano 
+
+-> is use and open nano 
+
+how to see specific type of file in dir
+
+exampe a dir is root in this dir have such a files
+main.py
+hello.py
+script.js
+
+i want to find only python files
+
+ls dir_name/*.file_type
+*-> check into all data
+.file_type -> show  which file_type of data
+
+ls root/*.py
+output
+\
+main.py
+hello.py
+
+
+
+
+
+learn
+
+
+whoami
+rmdir
+tail
+uniq
+ps 
+sleep
+ln
+man => man <command> show command manually doc
+rm
+date
+diff
+top
+gzip
+who
+clear
+touch
+cat
+find
+kill
+gunzip
+su
+pwd  => print working directory
+open
+less
+grep
+killall
+tar
+sudo
+ls
+mv
+echo
+do
+fg
+alias
+chown
+mkdir
+head
+sort
+history
+gb
+xargs
+chmod

@@ -1,0 +1,83 @@
+git cammand tools
+
+Git Initialize
+
+* -> git config --global user.name "git_username"
+
+
+* -> git config --global user.email "git_email"
+
+* -> git config --global color.ui auto
+* -> git config --list
+* -> git config --global code.editor vim
+* -> git config user.name => show username
+* -> git config user.email => show useremail
+
+createivetools2005
+
+
+some rename tag in git
+
++++++++++++++++++++++++++++++++++++++++
+
+New Repository    =  new folder
+
+commit          =     save
+
+fork             =   complete copy
+
+github issues   =   camplaint
+
+
++++++++++++++++++++++++++++++++++++
+
+basics of terminal
+
+git initials
+
+++++++++++++++
+cammands
++++++++++++
+
+satup 
+
+git init
+
+____________
+stage & snapshot
+
+git status
+	=> show modified file in working dir staged for your next commit
+git add [file]
+	=> add a file as it look now to your commit
+git reset [file]
+	=> unstage 
+git diff
+git diff --staged
+git commit -m "[description message]"
+
+
+
+branch 
+
+git branch
+git branch [brancd name ]
+git checkout
+git merge [branch]
+git log
+
+delteing git rep
+
+rm -rf .git
+
+clone git repo
+
+git clone https://github.com/Creativetools90/rust.git
+
+
+
+
+
+
+
+
